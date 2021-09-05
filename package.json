@@ -1,0 +1,23 @@
+{
+  "name": "snake",
+  "version": "1.0.0",
+  "description": "Game",
+  "main": "main.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
+  "keywords": [
+    "game",
+    "snake",
+    "learning"
+  ],
+  "author": "Denis Nikulin <nikulin_dv@vk.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "html-webpack-plugin": "^5.3.2",
+    "webpack": "^5.51.2",
+    "webpack-cli": "^4.8.0"
+  }
+}
